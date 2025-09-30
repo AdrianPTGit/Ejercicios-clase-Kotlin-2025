@@ -19,5 +19,16 @@ Comprueba si “Ad” está en la lista (usando el operador in).
  Imprime la lista completa tras cada operación (o al final).
 * */
 fun main() {
-
+    val lista = mutableListOf<String>("Ana","Carlos","Jorge", "Ad")
+    lista.add(2,"Maria Isabel")
+    lista[3]="felix"
+    lista.remove("Jorge")
+    print(lista)
+    println()
+    val buscar : String = "Ad"
+    if (buscar in lista){
+        println("esta en la lista")
+    } else {
+        println("No esta en la lista")
+    }
 }

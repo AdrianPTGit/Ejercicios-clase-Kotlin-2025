@@ -9,6 +9,8 @@ fun main() {
     ***************SINTAXYS PARA DECLARAR UN ARRAY
     *       val = [nombre_variable] = arrayOf<[tipo_Dato]>(elemento1, elemento2 elemento3.....)
     *
+    * si no se indica el tipo de dato el array puede contener elementos de distinto tipo.
+    *
     * La función arrayOf() toma los elementos del array como parámetros y devuelve un array del
     * tipo que coincide con los parámetros que se pasaron.
     *

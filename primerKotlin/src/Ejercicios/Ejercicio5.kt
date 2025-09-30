@@ -26,7 +26,7 @@ fun main() {
     println("El resultado es: ${calculoLeyOhm(v, r, i)}")
 }
 
-fun calculoLeyOhm (V: Double?, R: Double?, I: Double?) : Any? {
+fun calculoLeyOhm (V: Double?=null, R: Double?=null, I: Double?=null) : Any? {
 
     if( V == null && R != null && I != null){
 

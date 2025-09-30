@@ -12,9 +12,7 @@ fun main() {
 private fun encontrarLetra(cadena: String, letra : Char): Boolean{
     return cadena.indexOf(letra) != -1
 
-    if (cadena == -1){
-        println("Letra encontrada")
-    }
+
 
 
 }
